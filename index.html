@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENSE VZLA</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,500;0,700;0,800;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./flipdown.min.css">
+</head>
+<body>
+    <section class="wrapper">
+        <div class="header">
+            <span>🟡 EDITION 🟡</span>
+            <img src="./logo.png" alt="SENSE VZLA" class="logo">
+        </div>
+        <div class="timer">
+            <div id="flipdown" class="flipdown flipdown__theme-light"></div>
+        </div>
+        <div class="slogan">
+            <span>Conecta con nosotros</span>
+        </div>
+
+        <div class="savethedate">
+            <p class="uppercase bold">Save the date</p>
+            <p>19/03/2021</p>
+        </div>
+
+        <div class="nav">
+            <a class="button" href="#covers">Entradas</a>
+            <a class="button" href="#mesas">Mesas</a>
+        </div>
+        
+        <div id="mesas" class="info mesas">
+            <h2>Mesas</h2>
+                 
+            <article class="mesa__item">
+                <h3>Stage</h3>
+                <div class="mesa__item__info">                    
+                    <p>2 Cacique 500 o Linaje 🥃</p>
+                    <p>2 Grey Goose🧊</p>
+                    <p>1 Champaña 🍾 </p>
+                    <p>8 Aguas 💧</p>
+                    <p>8 Chupetas 🍭</p>
+                    <p>3 Four Loko 🤪</p>
+                    <p>4 Red Bull ⚡️</p>
+                    <p>1 Arguile 💨</p>
+                    <p>10 Covers 🎟</p>
+                </div>
+                <span class="mesa__item__price">$350</span>
+                <a class="button" href="#">Comprar Mesa</a>
+            </article> 
+
+            <article class="mesa__item">
+                <h3>FrontStage</h3>
+                <div class="mesa__item__info">                    
+                    <p>1 Cacique 500 o Linaje 🥃</p>
+                    <p>1 Absolut 🧊</p>
+                    <p>1 Santa Teresa o Gordon’s 🥃🧊</p>
+                    <p>1 Champaña 🍾 </p>
+                    <p>8 Aguas 💧</p>
+                    <p>8 Chupetas 🍭</p>
+                    <p>3 Four Loko 🤪</p>
+                    <p>4 Red Bull ⚡️</p>
+                    <p>1 Arguile 💨</p>
+                    <p>10 Covers 🎟</p>
+                </div>
+                <span class="mesa__item__price">$300</span>
+                <a class="button" href="#">Comprar Mesa</a>
+            </article>
+            
+            <article class="mesa__item">
+                <h3>Front Stage 1</h3>
+                <div class="mesa__item__info">                    
+                    <p>1 Cacique 500 o Linaje 🥃</p>
+                    <p>1 Santa Teresa 😌</p>
+                    <p>1 Gordon’s 🧊</p>
+                    <p>8 Aguas 💧</p>
+                    <p>8 Chupetas 🍭</p>
+                    <p>4 Red Bull ⚡️</p>
+                    <p>1 Arguile 💨</p>
+                    <p>10 Covers 🎟</p>
+                </div>
+                <span class="mesa__item__price">$250</span>
+                <a class="button" href="#">Comprar Mesa</a>
+            </article> 
+
+            <article class="mesa__item">
+                <h3>Front Stage 2</h3>
+                <div class="mesa__item__info">                    
+                    <p>1 Santa Teresa o Cacique 🥃</p>
+                    <p>1 Gordon’s 🧊</p>
+                    <p>8 Covers 🎟</p>
+                </div>
+                <span class="mesa__item__price">$100</span>
+                <a class="button" href="#">Comprar Mesa</a>
+            </article> 
+
+            <article class="mesa__item">
+                <h3>Front Stage 3</h3>
+                <div class="mesa__item__info">                    
+                    <p>1 Santa Teresa o Gordon’s 🥃🧊</p>
+                    <p>5 Covers 🎟</p>
+                </div>
+                <span class="mesa__item__price">$80</span>
+                <a class="button" href="#">Comprar Mesa</a>
+            </article> 
+        </div>
+
+        <div id="covers" class="info covers">
+            <h2>Covers</h2>
+
+            <article class="covers__item">
+                <h3>Front Stage</h3>
+                <span class="mesa__item__price">$10</span>
+                <a class="button" href="#">Comprar</a>
+            </article>       
+        </div>
+
+    </section>
+
+    <section class="emoticones">
+        🟡 🔵 🔴        
+      </section>
+    
+      <section class="instagram">
+        <i class="fab fa-instagram"></i> sensevzla
+      </section>
+      <script src="./flipdown.min.js"></script>
+      <script>
+
+document.addEventListener('DOMContentLoaded', () => {
+
+// Unix timestamp (in seconds) to count down to
+var twoDaysFromNow = new Date(2021, 2, 19, 23, 0, 0, 0).getTime()/1000;
+// Set up FlipDown
+var flipdown = new FlipDown(twoDaysFromNow)
+
+  // Start the countdown
+  .start()
+
+  // Do something when the countdown ends
+  .ifEnded(() => {
+    console.log('The countdown has ended!');
+  });
+});
+      </script>
+</body>
+</html>
