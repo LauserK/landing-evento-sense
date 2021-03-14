@@ -538,7 +538,24 @@ body{
     letter-spacing: 8px;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.pretty-title{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 2rem;
+  font-family: 'Roboto';
+}
+
 @media (max-width: 400px) {
+
+  .pretty-title{
+    font-size: .9rem;
+  }
+
 	.wrapper{
         max-width: 300px;
         margin-top: 2rem;
