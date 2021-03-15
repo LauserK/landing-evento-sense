@@ -357,10 +357,12 @@ body{
     color: white;
     background-color: #1d1d1d;
     font-family: 'Roboto', sans-serif;
+    background-image: url('./fondo.jpg');
+    background-size: default;
 }
 
 .wrapper {
-    background-color: rgba(255, 178, 0, 0.4);
+    background-color: rgba(225, 171, 35, 0.9);
     max-width: 700px;
     margin: 5rem auto 2rem auto;
     border-radius: 10px;
@@ -551,6 +553,9 @@ body{
 }
 
 @media (max-width: 400px) {
+  body {
+    background-size: contain;
+  }
 
   .pretty-title{
     font-size: .9rem;
