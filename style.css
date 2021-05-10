@@ -358,7 +358,9 @@ body{
     background-color: #1d1d1d;
     font-family: 'Roboto', sans-serif;
     background-image: url('./fondo.jpg');
-    background-size: default;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .wrapper {
@@ -554,7 +556,8 @@ body{
 
 @media (max-width: 400px) {
   body {
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
   }
 
   .pretty-title{
