@@ -364,7 +364,8 @@ body{
 }
 
 .wrapper {
-    background-color: rgba(225, 171, 35, 0.9);
+    /*background-color: rgba(225, 171, 35, 0.9);*/
+    background: #cb9fbd;
     max-width: 700px;
     margin: 5rem auto 2rem auto;
     border-radius: 10px;
